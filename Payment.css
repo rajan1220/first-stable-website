@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    flex-direction: row;
+
+    margin: 20px;
+  }
+
+  .box {
+
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    width: 95px;
+    height: 220px;
+    border: 3px solid black;
+    margin: 10px;
+    text-align: justify;
+
+    font-weight: bold;
+    
+
+  }
+
+  .box div {
+    cursor: pointer;
+    align-content: space-between;
+  }
+
+  .form {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 240px;
+    border: 5px solid black;
+    margin: 10px;
+
+  }
+
+  .form input {
+    margin: 5px;
+  }
+
+  .form button {
+    margin: 10px;
+  }
+
+  .qr {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+  }
+
+  .qr img {
+    width: 100px;
+    height: 100px;
+  }
+  .pay-later{
+
+    text-align: left;
+    
+
+  }
+  .box1{
+
+    display: inline block;
+    background-color: aqua;
+    width: 700px;
+    height: 520px;
+    align-content: center;
+  }
+  .button{
+    width: 85px;
+    background-color: blue;
+    color:white;
+
+  }
+  .price{
+    display: flex;
+  }
+  .img{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+  }
+  #wallet-form{
+    display: flex;
+
+    flex-direction: column;
+  }
+
+  
