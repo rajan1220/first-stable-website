@@ -1,0 +1,163 @@
+<html>
+<head>
+<link rel="stylesheet" href="/style/Payment.css">
+</head>
+<body>
+    <div class="box1">
+    <center>    <h1>Payment Page</h1>
+<center><div class="container">
+
+<div class="box">
+<div id="debit"><button class="button" style="margin: 5px;">Debit Card</button></div>
+<div id="credit"><button class="button" style="margin: 5px;">Credit Card</button></div>
+<div id="later"><button class="button" style="margin: 5px;">Pay Later</button></div>
+
+<div id="wallet"><button class="button" style="margin: 5px;">Wallet</button></div>
+<div id="cash"><button class="button" style="margin: 5px;">Cash</button></div>
+<div id="cash"><button class="button" style="margin: 5px;">UPI</button></div>
+<div id="qr"><button class="button" style="margin: 5px;">QR Code</button></div>
+</div>
+<div class="form" id="debit-form">
+<h3>Debit card Datails</h3>
+<input type="text" placeholder="Card Number" required>
+<input type="text" placeholder="CVV" required>
+<input type="text" placeholder="Valid Upto" required>
+<input type="text" placeholder="Card Holder Name" required>
+<div class="img"><img src="visa.png" width="30px" height="30px"><img src="rupay.jpeg" width="30px" height="30px">
+  <img src="amrican.png" width="30px" height="30px"><img src="master.png" width="30px" height="30px"></div>
+
+</div>
+<div class="form" id="credit-form">
+<h3>Credit Card Details</h3>
+<input type="text" placeholder="Card Number"required>
+<input type="text" placeholder="CVV" required>
+<input type="text" placeholder="Valid Upto" required>
+<input type="text" placeholder="Card Holder Name" required>
+
+</div>
+<div class="form" id="later-form">
+<h3>Pay Later</h3>
+<label class="pay-later">
+    <input type="radio" name="q5" value="a">Lazy Pay
+</label>
+<label class="pay-later">
+    <input type="radio" name="q5" value="b"> Simpl
+</label>
+<label class="pay-later">
+    <input type="radio" name="q5" value="c"> ICICI Pay
+</label>
+
+</div>
+<div class="form" id="wallet-form">
+<h3>Wallet Options</h3>
+<label class="pay-later">
+    <input type="radio" name="q5" value="a">Paytm Wallet
+</label>
+<label class="pay-later">
+    <input type="radio" name="q5" value="b">Phonepe Wallet
+</label>
+<label class="pay-later">
+    <input type="radio" name="q5" value="c">Amazon Pay
+</label>
+<label class="pay-later">
+    <input type="radio" name="q5" value="c">Airtel Wallet
+</label>
+
+</div>
+<div class="form" id="cash-form">
+<h3>Cash Option</h3>
+<p>Please pay the amount in cash to the Hotel Reception.</p>
+</div>
+<div class="form" id="cash-form">
+  <h3>Please Enter UPI ID</h3>
+<input type="upi" placeholder="upi"required>
+</div>
+<div class="form" id="qr-code">
+<h3>QR Code Option</h3>
+<img src="/Image/Offline Merchant.png" width="100" height="100">
+
+</div>
+</div>
+<div class="price">
+</center>
+<div>Price</div>        <div>₹ 4,080</div>
+<p>Tax+GST         ₹ 489.6</p>
+<button class="Payment">PAY</button>
+</div>
+<script>
+
+
+var debit = document.getElementById("debit");
+var credit = document.getElementById("credit");
+var later = document.getElementById("later");
+var wallet = document.getElementById("wallet");
+var cash = document.getElementById("cash");
+var cash = document.getElementById("cash");
+var qr = document.getElementById("qr");
+
+var debitForm = document.getElementById("debit-form");
+var creditForm = document.getElementById("credit-form");
+var laterForm = document.getElementById("later-form");
+var walletForm = document.getElementById("wallet-form");
+var cashForm = document.getElementById("cash-form");
+var qrCode = document.getElementById("qr-code");
+
+
+debit.addEventListener("click", function() {
+  debitForm.style.display = "flex";
+  creditForm.style.display = "none";
+  laterForm.style.display = "none";
+  walletForm.style.display = "none";
+  cashForm.style.display = "none";
+  qrCode.style.display = "none";
+});
+
+credit.addEventListener("click", function() {
+  debitForm.style.display = "none";
+  creditForm.style.display = "flex";
+  laterForm.style.display = "none";
+  walletForm.style.display = "none";
+  cashForm.style.display = "none";
+  qrCode.style.display = "none";
+});
+
+later.addEventListener("click", function() {
+  debitForm.style.display = "none";
+  creditForm.style.display = "none";
+  laterForm.style.display = "flex";
+  walletForm.style.display = "none";
+  cashForm.style.display = "none";
+  qrCode.style.display = "none";
+});
+
+wallet.addEventListener("click", function() {
+  debitForm.style.display = "none";
+  creditForm.style.display = "none";
+  laterForm.style.display = "none";
+  walletForm.style.display = "flex";
+  cashForm.style.display = "none";
+  qrCode.style.display = "none";
+});
+
+cash.addEventListener("click", function() {
+  debitForm.style.display = "none";
+  creditForm.style.display = "none";
+  laterForm.style.display = "none";
+  walletForm.style.display = "none";
+  cashForm.style.display = "flex";
+  qrCode.style.display = "none";
+});
+
+qr.addEventListener("click", function() {
+  debitForm.style.display = "none";
+  creditForm.style.display = "none";
+  laterForm.style.display = "none";
+  walletForm.style.display = "none";
+  cashForm.style.display = "none";
+  qrCode.style.display = "flex";
+});
+
+</script>
+</div>
+</body>
+</html>

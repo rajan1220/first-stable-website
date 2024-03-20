@@ -1,0 +1,272 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #1b1366;
+    color: rgb(255,215,150);
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    height: 100px;
+    align-content: baseline;
+    /* justify-content: space-between; */
+    gap: 2em;
+}
+
+nav {
+    background-color: #f820e2;
+    /* color: #f68e06; */
+    /* text-align:; */
+    padding: 0.1px;
+}
+
+nav ul {
+    color: #f68e06;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.div1{
+    display:inline-block;
+    width: 0%;
+}
+#customer{
+    background: scroll;
+    background-color:rgb(158, 234, 234);
+    /* font-size: 2em; */
+    /* padding: 100; */
+    text-align: justify;
+   text-align: left;
+   border-radius: 40px;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.div2{
+    display:inline-block;
+    width: 30%; 
+    text-align: justify;  
+    /* text-decoration: none; */
+    text-decoration-line: none;
+    text-decoration:dashed;
+}
+ .container {
+ text-align: center;
+  background-color: #c63d3d;
+   padding: 50px;
+   padding-left: 5%;
+   width: 40%;
+   height: 15em;
+   border: 1px solid #d82121;
+  border-radius: 50px;
+  /* justify-content: space-between; */
+  display: inline-block;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  }
+  .footer1{
+    display: flex;
+}
+ .button {
+        background-color: #007BFF;
+     color: #fff;
+     border: none;
+    padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 20px;
+        }
+        .call{
+            padding: 0%;
+        }
+        .hotel-name{
+    align-self: center;
+    font-size: larger;
+    flex-grow: 1;
+    text-align: left;
+}
+.logo{
+            align-content: left;
+            display: inline-block;
+            padding-left: 5%;
+            /* position: absolute;
+            top: 0px;
+            left:40px; */
+        }
+  .form1{
+            font-size: 20px;
+            align-content: space-between;
+            display: inline-block;
+      
+        }
+  .inr{
+    display: flex;
+    position: absolute;
+    top: -5px;
+    right: 230px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #1b1366;
+    color: rgb(255,215,150);
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    height: 100px;
+    align-content: baseline;
+    /* justify-content: space-between; */
+    gap: 2em;
+}
+
+nav {
+    background-color: #f820e2;
+    /* color: #f68e06; */
+    /* text-align:; */
+    padding: 15px;
+}
+
+nav ul {
+    color: #f68e06;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav li a:hover, nav li a.active{
+        text-decoration: none;
+        color: rgb(10, 245, 34);
+        font-weight: bold;
+}
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+form label, form input, form button {
+    display: block;
+    margin: 10px;
+}
+.call img{
+    width: 100%;
+}
+
+
+.div1{
+    display:inline-block;
+    width: 0%;
+}
+.div2{
+    display:inline-block;
+    width: 30%;
+    
+}
+.footer1{
+    display: flex;  
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.hotel-name{
+    align-self: center;
+    font-size: larger;
+    flex-grow: 1;
+    text-align: left;
+}
+.logo{
+            align-content: left;
+            display: inline-block;
+            padding-left: 5%;
+            /* position: absolute;
+            top: 0px;
+            left:40px; */
+        }
+        .inr{
+    display: flex;
+    position: absolute;
+    top: -5px;
+    right: 230px;
+}
+
+
+.div1{
+    display:inline-block;
+    width: 19%;
+    text-align: justify;
+    justify-content: center;
+}
+
+
+
+footer{
+    padding: 0%;
+    justify-content: space-between;
+}
+.footer1{
+    display: flex;
+}
+.div2{
+    display:inline-block;
+    width: 30%; 
+    text-align: justify;  
+}
+.h2{
+    text-align: center;
+}
+.hotel-name{
+    align-self: center;
+    font-size: larger;
+    flex-grow: 1;
+    text-align: left;
+}
+.logo{
+            align-content: left;
+            display: inline-block;
+            padding-left: 5%;
+            /* position: absolute;
+            top: 0px;
+            left:40px; */
+        }
+.form12{
+    display: flex;
+    justify-content: space-between;
+}
+.form-data{
+    display: inline-block;
+    width: fit-content;
+}
+
+
